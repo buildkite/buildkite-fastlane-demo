@@ -1,3 +1,4 @@
-Buildkite Fastlane Demo.ipa
-Buildkite Fastlane Demo.app.*
-fastlane/report.xml
+/Buildkite Fastlane Demo.ipa
+/Buildkite Fastlane Demo.app.*
+/fastlane/report.xml
+/fastlane/xcodebuild-data/

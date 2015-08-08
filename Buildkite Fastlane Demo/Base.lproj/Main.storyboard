@@ -18,6 +18,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Xb-BSZ">
                                 <rect key="frame" x="254" y="255" width="93" height="90"/>
+                                <accessibility key="accessibilityConfiguration" identifier="" label="Logo">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.64313725490196072" green="0.83137254901960778" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>

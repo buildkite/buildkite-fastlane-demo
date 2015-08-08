@@ -8,13 +8,7 @@ An example of running Xcode 7 unit, performance and UI tests using [Fastlane](ht
 
 ## Build Pipeline
 
-TODO
-
-## Manually Running
-
-```bash
-bundle install && bundle exec fastlane test
-```
+A single step with `bundle install && bundle exec fastlane test`
 
 ## License
 
