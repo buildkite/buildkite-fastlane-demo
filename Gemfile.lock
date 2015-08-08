@@ -1,3 +1,30 @@
+GIT
+  remote: git://github.com/buildkite/fastlane.git
+  revision: 072d2dc78107ddd86a02b56828b2d9e5b9b91d85
+  branch: fix-action-output-streams
+  specs:
+    fastlane (1.15.0)
+      aws-sdk (~> 1.0)
+      cert (>= 0.3.0)
+      cupertino (>= 1.3.3)
+      deliver (>= 0.13.0)
+      fastlane_core (>= 0.12.0)
+      frameit (>= 2.1.0)
+      krausefx-shenzhen (>= 0.14.5)
+      nokogiri (~> 1.6)
+      pbxplorer (~> 1.0.0)
+      pem (>= 0.6.4)
+      produce (>= 0.5.1)
+      rest-client (~> 1.8.0)
+      sigh (>= 0.10.3)
+      slack-notifier (~> 1.0)
+      snapshot (>= 0.9.2)
+      spaceship (>= 0.3.4)
+      terminal-notifier (~> 1.6.2)
+      terminal-table (~> 1.4.5)
+      xcodeproj (~> 0.20)
+      xcpretty (~> 0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,27 +87,6 @@ GEM
       faraday (>= 0.7.4, < 0.10)
     fastimage (1.6.8)
       addressable (~> 2.3, >= 2.3.5)
-    fastlane (1.15.0)
-      aws-sdk (~> 1.0)
-      cert (>= 0.3.0)
-      cupertino (>= 1.3.3)
-      deliver (>= 0.13.0)
-      fastlane_core (>= 0.12.0)
-      frameit (>= 2.1.0)
-      krausefx-shenzhen (>= 0.14.5)
-      nokogiri (~> 1.6)
-      pbxplorer (~> 1.0.0)
-      pem (>= 0.6.4)
-      produce (>= 0.5.1)
-      rest-client (~> 1.8.0)
-      sigh (>= 0.10.3)
-      slack-notifier (~> 1.0)
-      snapshot (>= 0.9.2)
-      spaceship (>= 0.3.4)
-      terminal-notifier (~> 1.6.2)
-      terminal-table (~> 1.4.5)
-      xcodeproj (~> 0.20)
-      xcpretty (~> 0.1)
     fastlane_core (0.12.0)
       babosa
       capybara (~> 2.4.3)
@@ -203,4 +209,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fastlane
+  fastlane!
