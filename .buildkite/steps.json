@@ -1,0 +1,6 @@
+[
+  {
+    "name": ":fastlane: test",
+    "command": "fastlane test"
+  }
+]
