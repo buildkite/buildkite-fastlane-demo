@@ -11,14 +11,6 @@ import XCTest
 
 class Buildkite_Fastlane_DemoTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-    }
-    
-    override func tearDown() {
-        super.tearDown()
-    }
-    
     func testExample() {
         XCTAssert(1 == 1)
     }
