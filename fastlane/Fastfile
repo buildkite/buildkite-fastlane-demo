@@ -2,11 +2,7 @@ default_platform :ios
 
 platform :ios do
   before_all do
-    # ipa scheme: 'Buildkite Fastlane Demo'
-
-    # Instead of using the ipa action above we'll run it manually ourselves,
-    # but not piped through xcpretty - so we can see what the output is
-    sh 'cd .. && set -o pipefail && krausefx-ipa build -s "Buildkite Fastlane Demo" --verbose'
+    ipa scheme: 'Buildkite Fastlane Demo'
   end
 
   desc "Runs all the tests"
