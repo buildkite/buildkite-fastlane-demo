@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/buildkite/commander.git
-  revision: 639f478c5ee38fdf4141e4896fd709ae4bf51fc7
+  revision: 321a64af8406228962db664c65f1db77cfe1269c
   branch: fix-negative-highline-wrap
   specs:
     commander (4.3.4)
