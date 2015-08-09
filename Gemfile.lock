@@ -94,6 +94,7 @@ GEM
       phantomjs (~> 1.9.8)
       poltergeist (~> 1.5.1)
       rubyzip (~> 1.1.6)
+    ffi (1.9.6)
     frameit (2.1.0)
       deliver (> 0.3)
       fastimage (~> 1.6.3)
@@ -129,6 +130,7 @@ GEM
     mini_magick (4.0.4)
     mini_portile (0.6.2)
     minitest (5.8.0)
+    msgpack (0.6.2)
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
@@ -158,6 +160,10 @@ GEM
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rbtrace (0.4.7)
+      ffi (>= 1.0.6)
+      msgpack (>= 0.4.3)
+      trollop (>= 1.16.2)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -182,6 +188,7 @@ GEM
     terminal-notifier (1.6.3)
     terminal-table (1.4.5)
     thread_safe (0.3.5)
+    trollop (1.16.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unf (0.1.4)
@@ -204,3 +211,4 @@ PLATFORMS
 
 DEPENDENCIES
   fastlane
+  rbtrace
