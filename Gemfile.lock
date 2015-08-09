@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/buildkite/commander.git
+  revision: 639f478c5ee38fdf4141e4896fd709ae4bf51fc7
+  branch: fix-negative-highline-wrap
+  specs:
+    commander (4.3.4)
+      highline (~> 1.7.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -27,8 +35,6 @@ GEM
     claide (0.9.1)
     cliver (0.3.2)
     colored (1.2)
-    commander (4.3.4)
-      highline (~> 1.7.2)
     credentials_manager (0.7.1)
       colored
       highline (>= 1.7.1)
@@ -210,5 +216,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  commander!
   fastlane
   rbtrace
