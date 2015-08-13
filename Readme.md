@@ -1,4 +1,4 @@
-# Buildkite Fastlane Demo
+# Buildkite Fastlane Example
 
 An example of running Xcode 7 unit, performance and UI tests using [Fastlane](https://fastlane.tools) and [Buildkite](https://buildkite.com/).
 
