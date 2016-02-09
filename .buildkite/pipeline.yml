@@ -1,0 +1,3 @@
+steps:
+  - command: "bundle install && bundle exec fastlane test"
+  - name: ":fastlane: test"

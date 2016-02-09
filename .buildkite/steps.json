@@ -1,6 +1,0 @@
-[
-  {
-    "name": ":fastlane: test",
-    "command": "bundle install && bundle exec fastlane test"
-  }
-]
