@@ -1,15 +1,8 @@
 default_platform :ios
 
 platform :ios do
-  before_all do
-    ipa scheme: 'Buildkite Fastlane Demo'
-  end
-
   desc "Runs all the tests"
   lane :test do
-    xctest scheme: 'Buildkite Fastlane Demo',
-           sdk: 'iphonesimulator',
-           destination: 'platform=iOS Simulator,name=iPhone 6,OS=9.0',
-           derivedDataPath: './fastlane/xcodebuild-data'
+    run_tests
   end
 end

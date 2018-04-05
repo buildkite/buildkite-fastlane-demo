@@ -3,4 +3,4 @@
 xcshareddata/
 xcuserdata/
 /fastlane/report.xml
-/fastlane/xcodebuild-data/
+/fastlane/test_output/
