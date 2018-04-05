@@ -1,4 +1,6 @@
 /Buildkite Fastlane Demo.ipa
 /Buildkite Fastlane Demo.app.*
+xcshareddata/
+xcuserdata/
 /fastlane/report.xml
 /fastlane/xcodebuild-data/
