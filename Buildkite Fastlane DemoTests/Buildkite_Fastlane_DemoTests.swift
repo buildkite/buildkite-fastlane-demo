@@ -16,7 +16,7 @@ class Buildkite_Fastlane_DemoTests: XCTestCase {
     }
     
     func testPerformanceExample() {
-        self.measureBlock {
+        self.measure {
             1 == 1
         }
     }
